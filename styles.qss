@@ -1,0 +1,54 @@
+QWidget {
+    /*设置背景颜色*/
+    background-color:"white";
+
+}
+QLineEdit {
+    background-color:"white";
+}
+QPushButton {
+    font-size: 10px;
+    border-radius: 5px;
+}
+QPushButton:hover{
+    background-color: #E0FFFF;
+}
+
+QProgressBar {
+
+    border-radius: 5px;
+}
+
+
+
+QProgressBar {
+        border: 1px solid grey;
+        border-radius: 5px;
+        height: 2px;
+
+    }
+QProgressBar::chunk {
+        border-radius: 5px;
+        background-color: #05B8CC;
+        width: 2px;
+    }
+
+QSlider::groove:horizontal {
+        border: 1px solid #bbb;
+        height: 3px;
+        background: #f0f0f0;
+        border-radius: 2px;
+    }
+ QSlider::handle:horizontal {
+        background: #05B8CC;
+        border: none;
+        width: 10px;
+        border-radius: 5px;
+        margin: -10px -10px;
+    }
+QSlider::add-page:horizontal {
+        background: #f0f0f0;
+    }
+QSlider::sub-page:horizontal {
+        background: #05B8CC;
+    }

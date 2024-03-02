@@ -1,0 +1,12 @@
+<!DOCTYPE RCC>
+<RCC>
+<qresource>
+    <file>../play.png</file>
+    <file>../pause.png</file>
+    <file>../48.png</file>
+    <file>../l.png</file>
+    <file>../r.png</file>
+    <file>../wave.gif</file>
+    <file>../search.png</file>
+</qresource>
+</RCC>
